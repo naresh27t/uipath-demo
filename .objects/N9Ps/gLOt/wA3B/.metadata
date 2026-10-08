@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Library Details – LICET - Google Chrome",
+  "Type": "Screen",
+  "Id": "wA3BS0zaYU-L-fLxh_j0rg",
+  "Reference": "tWXlEH7RKUGPfJ42BzBOUw/wA3BS0zaYU-L-fLxh_j0rg",
+  "ParentRef": "tWXlEH7RKUGPfJ42BzBOUw/gLOtPB0f4UCLPVOL4MSC1A",
+  "Created": "2026-10-07T15:43:26.2483334Z",
+  "Updated": "2026-10-07T15:43:26.2483334Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

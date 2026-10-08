@@ -1,0 +1,194 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upap="clr-namespace:UiPath.PDF.Activities.PDF;assembly=UiPath.PDF.Activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.PDF.Activities.PDF</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,1417.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strDeptECE" />
+      <Variable x:TypeArguments="x:String" Name="strpdfRead" />
+      <Variable x:TypeArguments="x:String" Name="strCentralECE" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Library Details – LICET - Google Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1394.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="7800f48c-9530-4b34-9846-d469423ed936" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1148" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'licet.ac.in/mandatory-d…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="7800f48c-9530-4b34-9846-d469423ed936" Text="licet.ac.in/mandatory-disclosure/library-details/" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="207, 73, 1428, 31" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Library Details – LICET - Google Chrome - NARESH T (licet.ac.in)' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Library Details – LICET - Google Chrome - NARESH T (licet.ac.in)' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="3c5e0c24-b67e-4076-a766-a26a83eb7b55" InformativeScreenshot="125061818b8d8655dfff23a4b8a1b8d5.jpg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Library Details – LICET - Google Chrome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,256.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="SameAsCard" ScopeIdentifier="7800f48c-9530-4b34-9846-d469423ed936" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
+            <ui:ReadPDFText PreserveFormatting="{x:Null}" ResourceFile="{x:Null}" DisplayName="Read PDF Text" FileName="C:\Users\NARESH\Downloads\LIBRARY-DETAILS.pdf" sap:VirtualizedContainerService.HintSize="416,123.2" sap2010:WorkflowViewState.IdRef="ReadPDFText_2" Range="All" Text="[strpdfRead]">
+              <ui:ReadPDFText.Item>
+                <upap:ItemArgument x:TypeArguments="upr:IResource" ResourceFile="{x:Null}" FileName="C:\Users\NARESH\Downloads\LIBRARY-DETAILS.pdf" />
+              </ui:ReadPDFText.Item>
+            </ui:ReadPDFText>
+            <Assign sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strDeptECE]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(strpdfRead, "(?i)B\.?E\s*-\s*ECE.*?1486\s+5227\s+(\d+)").Groups(1).Value]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[strCentralECE]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(strpdfRead, "(?i)B\.?E\s*-\s*ECE.*?1486\s+(\d+)").Groups(1).Value]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;ECE Central Library Books: &quot; &amp; strCentralECE &amp; vbCrLf &amp; &quot;ECE Department Library Books: &quot; &amp; strDeptECE]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="qNiwjbjLXkGB52VGhzWdAw" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="2bf163ca1dd3cf3556767e160090146c.jpg" Reference="tWXlEH7RKUGPfJ42BzBOUw/wA3BS0zaYU-L-fLxh_j0rg" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Library Details – LICET - Google Chrome' /&gt;" Version="V3" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

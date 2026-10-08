@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h8nqCZZdlU682p_KItzSxg" Reference="tWXlEH7RKUGPfJ42BzBOUw/oDmnYs_Eaki_zWxPR6_1iA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="742, 196, 894, 631" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Library Details – LICET' role='document' /&gt;&lt;ctrl name='doc' role='document' /&gt;&lt;ctrl name='LIBRARY-DETAILS.pdf' role='document' /&gt;&lt;ctrl name='Showing viewer.' role='grouping' /&gt;&lt;ctrl idx='20' role='grouping' /&gt;" Guid="846ae1ad-c86c-4699-b58c-ec0cfe14e46c" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Library Details – LICET - Google Chrome' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f392b32f1ba30d82bb6988def53067c6.jpg" xmlns="">0hmvYLOv4_UWjGK1qXsj_aA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

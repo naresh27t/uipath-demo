@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Library Details – LICET - Google Chrome",
+  "Type": "App",
+  "Id": "N9PsHIKthkiG8NTLDeWmLQ",
+  "Reference": "tWXlEH7RKUGPfJ42BzBOUw/N9PsHIKthkiG8NTLDeWmLQ",
+  "Created": "2026-10-07T15:43:26.0097107Z",
+  "Updated": "2026-10-07T15:43:26.0097107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
